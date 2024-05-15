@@ -10,7 +10,7 @@ const Welcome = () => {
 
   return (
     <div>
-      Welcome Page
+      Welcome Page Hello
       <button onClick={handleSignUpClick}>Sign Up</button>
     </div>
   );
