@@ -3,6 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Welcome from "./components/Welcome";
 import Signup from "./components/Signup";
 import Signin from "./components/Signin";
+import Home from "./components/Home";
+import CreateList from "./components/CreateList";
+import GroceryList from "./components/GroceryList";
 
 const App = () => {
   return (
@@ -11,6 +14,9 @@ const App = () => {
         <Route path="/" element={<Welcome />}></Route>
         <Route path="/signin" element={<Signin />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/createlist" element={<CreateList />}></Route>
+        <Route path="/grocerylist" element={<GroceryList />}></Route>
       </Routes>
     </BrowserRouter>
   );

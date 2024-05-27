@@ -5,13 +5,13 @@ const Welcome = () => {
   const navigate = useNavigate();
 
   const handleSignUpClick = () => {
-    navigate("/signup");
+    navigate("/signin");
   };
 
   return (
     <div>
       Welcome Page Hello new new
-      <button onClick={handleSignUpClick}>Sign Up</button>
+      <button onClick={handleSignUpClick}>Sign In</button>
     </div>
   );
 };
